@@ -1,0 +1,257 @@
+html {
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #65e0c2de, #493a97);
+}
+/* Main Box  */
+.box {
+    background-color: rgba(255, 255, 255, 0.229);
+    position: relative;
+    width: 76%;
+    height: 550px;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    left: 167px;
+}
+
+.container-fluid span {
+    right: 502px;
+    position: relative;
+    display: inline;
+    font-size: 25px;
+    bottom: 15px;
+    cursor: default;
+}
+/* Navigation Bar  */
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.navbar-brand img {
+    height: 43px;
+    width: 60px;
+}
+
+.navbar-brand span {
+    display: block;
+    position: relative;
+    left: 75px;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+/* image area and preview */
+.image-box {
+    position: relative;
+    left: 58px;
+    top: 28px;
+    padding: 20px;
+    width: 850px;
+    height: calc(100% - 100px);
+    border: 8px solid rgba(255, 255, 255, 0.239);
+}
+
+.image-wrk {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.container {
+    border: 2px solid rgba(255, 255, 255, 0.239);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 263px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    overflow: hidden;
+}
+
+.container span {
+    position: absolute;
+    top: 66px;
+    left: 70px;
+}
+
+/* Controls */
+.Buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 116px;
+    user-select: none;
+    width: 267px;
+}
+
+.Buttons span {
+    display: block;
+    font-size: 15px;
+}
+
+.rotate {
+    position: relative;
+    top: 290px;
+    right: 620px;
+}
+
+.rotate span {
+    top: 2px;
+    position: relative;
+    left: 13px;
+}
+
+.flip {
+    position: relative;
+    top: 217px;
+    right: 465px;
+}
+
+.flip span {
+    position: relative;
+    left: 23px;
+    top: 2px;
+}
+
+.aspect {
+    position: relative;
+    top: 153px;
+    right: 290px;
+}
+
+.aspect span{
+    position: relative;
+    left: 33px;
+    top: 2px;
+}
+
+.ctrl-cropper {
+    position: relative;
+    top: 82px;
+    right: 61px;
+}
+.ctrl-cropper span {
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+
+.Buttons li {
+    list-style: none;
+    height: auto;
+    display: inline-block;
+    margin-left: 40px;
+    height: 45px;
+    margin-top: 6px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.Buttons li svg {
+    top: -1px;
+    left: -6px;
+    position: relative;
+    display: inline;
+    border-radius: 3px;
+    transition-duration: .4s;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    fill: white;
+}
+
+.Buttons li svg:active {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.Buttons .zoom,
+.Buttons .rotate,
+.Buttons .flip,
+.Buttons .move {
+    padding-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    height: 64px;
+}
+
+.Buttons .aspect {
+    margin-left: 2px;
+}
+
+.Buttons .aspect span {
+    padding-left: 19px;
+}
+
+.Buttons li {
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.129);
+    color: rgb(234, 234, 234);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition-duration: .4s;
+}
+
+.Buttons li:active {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* action button */
+.action {
+    position: relative;
+    left: 760px;
+    top: 27px;
+}
+
+.action .upload {
+    display: block;
+    width: 170px;
+    height: 35px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.129);
+    color: white;
+    border-radius: 33px;
+    outline: none;
+    transition-duration: .2s;
+    font-family: 'Maven Pro', sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.action .Crop{
+    width: 170px;
+    color: white;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.129);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 33px;
+    font-family: 'Maven Pro', sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    left: 20px;
+    position: relative;
+}
+.action .upload:active {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
